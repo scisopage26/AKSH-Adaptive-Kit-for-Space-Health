@@ -59,3 +59,27 @@ section {
     }
 }
 
+.search-container {
+    display: flex;
+    gap: 10px;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.search-container button {
+    padding: 12px 20px;
+    background-color: #176b87;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
